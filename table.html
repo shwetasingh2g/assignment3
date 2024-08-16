@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>Document</title>
+   </head>
+   <body>
+       <h1>TABLES</h1>
+       <table border="2px" width="100%px">
+           <thead>
+               <tr>
+                   <th>First name</th>
+                   <th>Last name</th>
+                   <th>Age</th>
+                   <th>Phone Number</th>
+                   <th>Pincode</th>
+               </tr>
+           </thead>
+           <tbody>
+               <tr>
+                   <td>User First 1</td>
+                   <td>User Last 1</td>
+                   <td>24</td>
+                   <td>3456666798</td>
+                   <td>345467</td>
+               </tr>
+               <tr>
+                   <td>user first 2</td>
+                   <td>user last 2</td>
+                   <td>45</td>
+                   <td></td>
+                   <td>876554</td>
+               </tr>
+               <tr>
+                   <td>user first 3</td>
+                   <td>user last 3</td>
+                   <td>23</td>
+                   <td>9876543332</td>
+                   <td></td>
+               </tr>
+           </tbody>
+       </table>
+       <br>
+       <br>
+       <table border="1px" width="100%px">
+           <thead>
+               <tr>
+                   <th>Course:</th>
+                   <th>Elevation Academy</th>
+               </tr>
+           </thead>
+           <tbody>
+               <tr>
+                   <th rowspan="2">Contact Number</th>
+                   <td>1234567890</td>
+               </tr>
+               <tr>
+                   <td>8765434567</td>
+               </tr>
+           </tbody>
+       </table>
+       <br>
+       <br>
+       <table border="2px" width="100%px">
+           <thead>
+               <tr>
+                   <th>Course</th>
+                   <th colspan="3">Contact Number</th>
+                   <th>Date of Commencement</th>
+               </tr>
+           </thead>
+           <tbody>
+               <tr>
+                   <td>Elevation Academy</td>
+                   <td>1234456678</td>
+                   <td>2 August 2020</td>
+               </tr>
+               <tr>
+                   <td>Elevation Academy</td>
+                   <td>1234456678</td>
+                   <td>2 August 2020</td>
+               </tr>
+               <tr>
+                   <td>Elevation Academy</td>
+                   <td>1234456678</td>
+                   <td>2 August 2020</td>
+               </tr>
+           </tbody>
+       </table>
+       <br>
+       <br>
+       <table border="1" align="center">
+           <tbody>
+               <tr>
+                   <td bgcolor="gray">Name</td>
+                   <td>John</td>
+                   <td bgcolor="gray">Nick</td>
+                   <td>Tim</td>
+               </tr>
+               <tr>
+                   <td>Age</td>
+                   <td bgcolor="gray">23</td>
+                   <td>20</td>
+                   <td bgcolor="lightgray">35</td>
+               </tr>
+           </tbody>
+       </table>
+       <br>
+       <br>
+       <a href="index.html">Go Back</a>
+   </body>
+</html>
